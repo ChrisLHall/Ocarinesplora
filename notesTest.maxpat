@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 42.0, 1020.0, 640.0 ],
+		"rect" : [ 8.0, 50.0, 1020.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,76 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 958.5, 1041.5, 150.0, 20.0 ],
+					"text" : "OcarinaSynth 587.329529"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 775.75, 1041.5, 150.0, 20.0 ],
+					"text" : "OcarinaSynth 493.882996"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 611.0, 1041.5, 110.0, 20.0 ],
+					"text" : "OcarinaSynth 440."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 426.0, 1041.5, 150.0, 20.0 ],
+					"text" : "OcarinaSynth 349.228241"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 268.0, 1041.5, 150.0, 20.0 ],
+					"text" : "OcarinaSynth 293.664764"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -175,7 +245,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 824.0, 318.0, 555.0, 253.0 ]
+					"patching_rect" : [ 824.0, 295.5, 555.0, 253.0 ]
 				}
 
 			}
@@ -189,7 +259,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 553.5, 295.5, 150.0, 48.0 ],
-					"text" : "/led/rgb : [0, 0, 255]",
+					"text" : "/led/rgb : [0, 0, 104]",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -217,6 +287,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1858.0, 475.0, 150.0, 34.0 ],
+					"text" : "/blue : 104",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -225,11 +296,13 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-33",
+					"linecount" : 3,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.5, 400.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1842.5, 400.0, 150.0, 61.0 ],
+					"text" : "/blue : 104,\n/led/rgb : [0, 0, 104]",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -469,68 +542,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 958.5, 1041.5, 112.0, 20.0 ],
-					"text" : "cycle~ 587.329529"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-38",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 775.75, 1041.5, 112.0, 20.0 ],
-					"text" : "cycle~ 493.883301"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-37",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 611.0, 1041.5, 72.0, 20.0 ],
-					"text" : "cycle~ 440."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-36",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 426.0, 1041.5, 112.0, 20.0 ],
-					"text" : "cycle~ 349.228241"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 268.0, 1041.5, 112.0, 20.0 ],
+					"patching_rect" : [ 89.0, 961.5, 112.0, 20.0 ],
 					"text" : "cycle~ 293.664764"
 				}
 
@@ -603,7 +620,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.0, 1057.0, 50.0, 18.0 ],
+					"patching_rect" : [ 113.0, 1116.0, 50.0, 18.0 ],
 					"text" : "440."
 				}
 
@@ -683,13 +700,13 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 41,
+					"linecount" : 39,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1519.0, 623.0, 301.0, 578.0 ],
-					"text" : "/microphone/loudness : 0.0435577,\n/joystick/x : 0.,\n/joystick/y : 0.0133333,\n/joystick/z : 0.0133333,\n/joystick/horizontal : 0.,\n/joystick/vertical : -0.0133333,\n/joystick/left : false,\n/joystick/right : false,\n/joystick/forward : false,\n/joystick/backward : false,\n/slider/horizontal : 1.,\n/led/rgb : [0, 0, 255],\n/connector/white/left : 0.,\n/connector/white/right,\n/temperature/fahrenheit : -60.,\n/temperature/celcius : -51.1111,\n/acceleration/x : 0.,\n/acceleration/y : 0.,\n/acceleration/z : 0.,\n/diamond/left/button/down : 0,\n/diamond/forward/button/down : 0,\n/diamond/right/button/down : 0,\n/diamond/backward/button/down : 0,\n/left : false,\n/right : false,\n/forward : false,\n/backward : false,\n/led/red : 0,\n/led/green : 0,\n/led/blue : 0,\n/led/onboard : 0,\n/tone : [0, 0],\n/temperature/celsius : 0,\n/joystick/button : \"released\",\n/photoresistor : 0.,\n/diamond/backward : \"released\",\n/diamond/left : \"released\",\n/diamond/forward : \"released\",\n/diamond/right : \"released\",\n/vendor : \"Arduino\",\n/productname : \"Esplora\"",
+					"patching_rect" : [ 1519.0, 623.0, 301.0, 551.0 ],
+					"text" : "/microphone/loudness : 0.0427246,\n/diamond/forward/button/down : 0,\n/diamond/left/button/down : 0,\n/diamond/right/button/down : 0,\n/diamond/backward/button/down : 0,\n/joystick/x : -0.0533333,\n/joystick/y : 1.,\n/joystick/z : 1.00142,\n/joystick/horizontal : -0.0533333,\n/joystick/vertical : -1.,\n/joystick/left : false,\n/joystick/right : false,\n/joystick/forward : true,\n/joystick/backward : false,\n/led/rgb : [0, 0, 104],\n/slider/horizontal : 0.408759,\n/left : false,\n/right : false,\n/forward : false,\n/backward : false,\n/led/red : 0,\n/led/green : 0,\n/led/blue : 0,\n/led/onboard : 0,\n/tone : [0, 0],\n/acceleration/x : 0.,\n/acceleration/y : 0.,\n/acceleration/z : 0.,\n/temperature/celsius : 0,\n/joystick/button : \"released\",\n/photoresistor : 0.,\n/connector/white/right : 0.,\n/connector/white/left : 0.,\n/diamond/backward : \"released\",\n/diamond/left : \"released\",\n/diamond/forward : \"released\",\n/diamond/right : \"released\",\n/vendor : \"Arduino\",\n/productname : \"Esplora\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -703,7 +720,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 1350.0, 637.0, 70.0, 20.0 ],
+					"patching_rect" : [ 732.0, 551.0, 70.0, 20.0 ],
 					"text" : "my-esplora"
 				}
 
@@ -738,7 +755,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
@@ -751,6 +768,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -801,6 +827,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -814,6 +849,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -837,10 +881,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -864,7 +917,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
@@ -873,7 +926,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
@@ -882,55 +935,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -1012,6 +1020,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -1310,6 +1336,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "OcarinaSynth.maxpat",
+				"bootpath" : "/Users/Chris/oca",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.pack.mxe",
 				"type" : "iLaF"
 			}
@@ -1375,6 +1408,10 @@
 			}
 , 			{
 				"name" : "o.difference.mxe",
+				"type" : "iLaF"
+			}
+, 			{
+				"name" : "sinusoids~.mxe",
 				"type" : "iLaF"
 			}
  ]
